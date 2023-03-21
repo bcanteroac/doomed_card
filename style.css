@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+  }
+  
+  #matrix-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .content {
+    /* Para centrar el contenido en la página: */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Otras propiedades de estilo para tu contenido: */
+    color: #00FF00;
+    font-size: 2rem;
+    /* etc. */
+  }
+
+  
+  .card-title{
+    color: black;
+  }
+
+  .card-text{
+    color: black;
+  }
+
+  .card-body{
+    background-color: darkgray;
+  }
+
+  .mi-enlace-insta {
+    display: inline-block;
+    padding-right: 20px;
+    background-image: url('insta.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
+  .icono-insta {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('insta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    visibility: hidden;
+  }
+
+  .mi-enlace-twitch {
+    display: inline-block;
+    padding-right: 20px;
+    background-image: url('twitch.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
+  .icono-twitch {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('twitch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    visibility: hidden;
+  }
+
+  .mi-enlace-linkedin {
+    display: inline-block;
+    padding-right: 20px;
+    background-image: url('logotipo-de-linkedin.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
+  .icono-linkedin {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('logotipo-de-linkedin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    visibility: hidden;
+  }
+  
